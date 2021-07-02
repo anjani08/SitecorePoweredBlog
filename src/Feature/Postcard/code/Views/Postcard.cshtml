@@ -1,0 +1,29 @@
+@{
+    var item = Sitecore.Context.Database.GetItem("{72B47D95-E88E-489B-844D-1C172AFE2460}");
+	var searchitem = Sitecore.Context.Database.GetItem("{32DB084A-3C89-466D-848E-F90BB112CD10}");
+	
+}
+
+<main role="main" class="container blog-posts">
+	<div class="main-search">
+		<div class="input-group">
+			<input type="text" class="form-control" placeholder=@Html.Sitecore().Field("HighlighterText",searchitem)>
+			<div class="input-group-append">
+				<button type="button" class="btn btn-dark">@Html.Sitecore().Field("ButtonLabel", searchitem)</button>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="blog-post-card card col-lg-4 col-md-6">
+			<div class="card-img-top">@Html.Sitecore().Field("ArticleSmallImage")</div>
+			<div class="card-body bg-light">
+				<strong class="d-inline-block mb-2 text-success">@Html.Sitecore().Field("Category")</strong>
+				<h3 class="card-title">@Html.Sitecore().Field("Title")</h3>
+				<div class="mb-1 text-muted">@Html.Sitecore().Field("PostedDate")</div>
+				<p>@Html.Sitecore().Field("ShortDescription")</p>
+				<a href="#" class="btn btn-warning btn-block">Read on</a>
+				
+			</div>
+		</div>
+	</div>
+</main>

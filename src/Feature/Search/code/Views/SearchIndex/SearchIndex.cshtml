@@ -1,0 +1,11 @@
+@model Sitecore.Data.Items.Item
+
+<div>
+    Way 1 - @Model["ButtonLabel"]
+    <br />
+    Way 2 - @Model.Fields["ButtonLabel"].Value
+    <br />
+    Way 3 - @Html.Sitecore().Field("ButtonLabel", Model)
+    <br />
+    Way 4 - @Html.Raw(Model.Fields["ButtonLabel"].Value)
+</div>

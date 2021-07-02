@@ -1,0 +1,33 @@
+@{
+    var item = Sitecore.Context.Database.GetItem("{75CCFD9C-B881-485C-8272-C79C39FB44E1}");
+}
+<div class="container blog-post-detail">
+    <div class="row">
+        <div class="blog-post-detail-card card col-lg-12">
+            <div class="card-img-top">@Html.Sitecore().Field("ArticleLargeImage") </div>
+                <div class="card-body bg-light">
+                    <p class="d-inline-block mb-2 text-success">@Html.Sitecore().Field("Category")</p>
+                    <h3 class="card-title">@Html.Sitecore().Field("Title")</h3>
+                    <div class="mb-1 text-muted">@Html.Sitecore().Field("PostedDate")</div>
+                    <p>@Html.Sitecore().Field("LongDescription")</p>
+                    
+<!--                    @* @{ Sitecore.Data.Items.Item item = Sitecore.Context.Item;
+                        Sitecore.Data.Fields.MultilistField multilistField = item.Fields["Tags"];
+                        Sitecore.Data.Items.Item[] myitems = multilistField.GetItems();
+                        for (int i = 0; i < myitems.Length; i++)
+                        {
+                            <p>@Html.Sitecore().Field("Tags")</p>
+                        }
+                    }*@ -->
+					<div class="blog-detail-tag-list"><span class="read-more-heading">Read more: </span>
+                        <a class="btn btn-info" href="#" role="button">Tag</a>
+                        <a class="btn btn-info" href="#" role="button">Super Extra Long Tag</a>
+                        <a class="btn btn-info" href="#" role="button">Extra Long Tag</a>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,30 @@
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Analytics.Extensions
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="C:\inetpub\wwwroot\xp101sc.dev.local\Views\Assignment\assets\css\bootstrap-themed.min.css">
+	 <link rel="stylesheet" href="C:\inetpub\wwwroot\xp101sc.dev.local\Views\Assignment\assets\css\blogsite.css">
+    <title>Sitecore Powered Blog</title>
+</head>
+    <body>
+
+        <div>
+
+            @Html.Sitecore().Placeholder("phMaster")
+			@Html.Sitecore().Placeholder("phPostcard1")
+			@Html.Sitecore().Placeholder("phPostcard2")
+			@Html.Sitecore().Placeholder("phPostcard3")
+			@Html.Sitecore().Placeholder("phPostcard4")
+			@Html.Sitecore().Placeholder("phPostcard5")
+			
+
+        </div>
+
+		
+
+    </body>
+</html>

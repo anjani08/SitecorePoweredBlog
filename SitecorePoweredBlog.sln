@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{6C2B195C-F434-4C0D-9E26-A167C287D1DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{AD526D6A-1DC1-427D-8C5A-714791BEE629}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{FEAB15CE-3402-473B-B6F9-722E66B80B9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlogDetail", "BlogDetail", "{48725062-CE82-4917-BE87-F548C63D6608}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecorePoweredBlog.Feature.BlogDetail", "src\Feature\BlogDetail\code\SitecorePoweredBlog.Feature.BlogDetail.csproj", "{07B978C9-F65D-416F-9B92-DD7C935E8679}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SiteSetting", "SiteSetting", "{EA5DF565-9D59-4A0D-828E-CC6B2B8F6FE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecorePoweredBlog.Feature.SiteSetting", "src\Feature\SiteSetting\code\SitecorePoweredBlog.Feature.SiteSetting.csproj", "{A4CB8EF1-F6A2-4357-A333-344EE66FB27B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{449DC355-C654-403A-882E-68D3C55A37EF}"
+	ProjectSection(SolutionItems) = preProject
+		gulp-config.js = gulp-config.js
+		gulpfile.js = gulpfile.js
+		package.json = package.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Postcard", "Postcard", "{AEC27357-DDA8-4C75-9837-DB03E407F0DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecorePoweredBlog.Feature.Postcard", "src\Feature\Postcard\code\SitecorePoweredBlog.Feature.Postcard.csproj", "{24480CCF-566E-49D7-A346-429A9A9B5994}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SearchBlock", "SearchBlock", "{7A0F5964-E33E-4A85-B2B6-3222A0F7D5B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecorePoweredBlog.Feature.SearchBlock", "src\Feature\SearchBlock\code\SitecorePoweredBlog.Feature.SearchBlock.csproj", "{BD9D4E60-20EA-4FC9-8628-9D3BD382A9F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SitecorePoweredBlog", "SitecorePoweredBlog", "{07B403FD-B308-4CC6-AEE5-27A7351F7611}"
+	ProjectSection(SolutionItems) = preProject
+		src\Project\SitecorePoweredBlog\sitecoreblog.css = src\Project\SitecorePoweredBlog\sitecoreblog.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07B978C9-F65D-416F-9B92-DD7C935E8679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B978C9-F65D-416F-9B92-DD7C935E8679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B978C9-F65D-416F-9B92-DD7C935E8679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B978C9-F65D-416F-9B92-DD7C935E8679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4CB8EF1-F6A2-4357-A333-344EE66FB27B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4CB8EF1-F6A2-4357-A333-344EE66FB27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4CB8EF1-F6A2-4357-A333-344EE66FB27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4CB8EF1-F6A2-4357-A333-344EE66FB27B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24480CCF-566E-49D7-A346-429A9A9B5994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24480CCF-566E-49D7-A346-429A9A9B5994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24480CCF-566E-49D7-A346-429A9A9B5994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24480CCF-566E-49D7-A346-429A9A9B5994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD9D4E60-20EA-4FC9-8628-9D3BD382A9F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD9D4E60-20EA-4FC9-8628-9D3BD382A9F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD9D4E60-20EA-4FC9-8628-9D3BD382A9F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD9D4E60-20EA-4FC9-8628-9D3BD382A9F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{48725062-CE82-4917-BE87-F548C63D6608} = {AD526D6A-1DC1-427D-8C5A-714791BEE629}
+		{07B978C9-F65D-416F-9B92-DD7C935E8679} = {48725062-CE82-4917-BE87-F548C63D6608}
+		{EA5DF565-9D59-4A0D-828E-CC6B2B8F6FE1} = {AD526D6A-1DC1-427D-8C5A-714791BEE629}
+		{A4CB8EF1-F6A2-4357-A333-344EE66FB27B} = {EA5DF565-9D59-4A0D-828E-CC6B2B8F6FE1}
+		{AEC27357-DDA8-4C75-9837-DB03E407F0DD} = {AD526D6A-1DC1-427D-8C5A-714791BEE629}
+		{24480CCF-566E-49D7-A346-429A9A9B5994} = {AEC27357-DDA8-4C75-9837-DB03E407F0DD}
+		{7A0F5964-E33E-4A85-B2B6-3222A0F7D5B0} = {AD526D6A-1DC1-427D-8C5A-714791BEE629}
+		{BD9D4E60-20EA-4FC9-8628-9D3BD382A9F4} = {7A0F5964-E33E-4A85-B2B6-3222A0F7D5B0}
+		{07B403FD-B308-4CC6-AEE5-27A7351F7611} = {6C2B195C-F434-4C0D-9E26-A167C287D1DB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EC68CC9-CDB3-4A05-8FA8-C958A5D2F643}
+	EndGlobalSection
+EndGlobal
